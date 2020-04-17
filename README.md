@@ -19,9 +19,8 @@ tabs_all(f, Interval(0, 4*pi/7) )
 \usepackage{tikz,tkz-tab}
 
 \begin{pycode}
-import numpy.random as random
 from sympy import *
-from signVarTable import tabs_all, tab_var
+from signvartable import tabs_all, tab_var
 
 x = symbols('x')
 f = -sin(5*x)
