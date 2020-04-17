@@ -5,7 +5,9 @@ Permet de générer le code latex d'un tableau de signe ou de variation directem
 # Exemple 1 (en python) :
 
 x = symbols('x')
+
 f = sin(7*pi/2) + (cos(7*pi/2))^2
+
 tabs_all(f, Interval(0, 4*pi/7) )
 
 
